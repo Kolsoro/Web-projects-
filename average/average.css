@@ -1,0 +1,33 @@
+
+table{
+    margin-left:250px;
+    background-color: rgb(253, 167, 213);
+    width: 400px;
+    height: 380px;
+}
+.heading{
+    color: deeppink;
+}
+.text{
+    color: white;
+}
+*{
+   
+    /* padding: 15px; */
+    padding:3px 7px 5px 6px;
+    margin: 5px;
+}
+#result{
+    width: 200px;
+    background-color: white;
+    
+}
+#add,#erase{
+    padding: 5px;
+    margin-left: 50px;
+}
+button{
+    color: deeppink;
+    height: 40px;
+    width: 100px;
+}

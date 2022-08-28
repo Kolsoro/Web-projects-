@@ -1,0 +1,37 @@
+
+table{
+    margin-left:250px;
+    background-color: rgb(65, 207, 155);
+    width: 500px;
+    height: 350px;
+}
+.heading{
+    color: deeppink;
+}
+.text{
+    color: white;
+}
+*{
+   
+    /* padding: 15px; */
+    padding:1px 7px 5px 6px;
+    margin: 5px;
+}
+#result{
+    width: 200px;
+    background-color: white;
+    
+}
+input{
+    height: 20px;
+}
+#add,#erase{
+    padding: 0px;
+    margin-left: 50px;
+}
+button{
+    color: rgb(1, 106, 3);
+    background-color: rgb(255, 211, 218);
+    height: 60px;
+    width: 135px;
+}

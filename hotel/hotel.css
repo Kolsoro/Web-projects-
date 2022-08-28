@@ -1,0 +1,43 @@
+
+table{
+    margin-left:250px;
+    background-color: rgb(19, 100, 70);
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+}
+html{
+    background-color: rgb(236, 203, 209);
+}
+.heading{
+    color: deeppink;
+}
+.text{
+    color: white;
+}
+*{
+   
+    /* padding: 15px; */
+    padding:1px 7px 5px 6px;
+    margin: 5px;
+}
+#result{
+    width: 200px;
+    background-color: white;
+    
+}
+input{
+    height: 20px;
+    border-radius: 10px;
+}
+#add,#erase{
+    padding: 0px;
+    margin-left: 50px;
+}
+button{
+    color: rgb(1, 106, 3);
+    background-color: rgb(255, 211, 218);
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+}

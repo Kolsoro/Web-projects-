@@ -1,0 +1,33 @@
+
+table{
+    margin-left:250px;
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 380px;
+}
+.heading{
+    color: cornflowerblue;
+}
+.text{
+    color: white;
+}
+*{
+   
+    /* padding: 15px; */
+    padding:3px 7px 10px 6px;
+    margin: 5px;
+}
+#result{
+    width: 200px;
+    color: green;
+    
+}
+#add,#erase{
+    padding: 5px;
+    margin-left: 50px;
+}
+button{
+    color: cornflowerblue;
+    height: 40px;
+    width: 100px;
+}

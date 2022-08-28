@@ -1,0 +1,46 @@
+html{
+    background-image: "https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1519389463/1519389461.jpg";
+    background-color: rgb(212, 171, 255);
+}
+table{
+    margin-left:250px;
+    background-color: rgb(146, 52, 234);
+    border: 2px solid rgb(255, 98, 255);
+    border-radius: 40px;
+    width: 500px;
+    height: 350px;
+}
+.heading{
+    color: rgb(146, 52, 234);
+}
+.text{
+    color: rgb(234, 190, 173);
+}
+*{
+   
+    /* padding: 15px; */
+    padding:1px 7px 5px 6px;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#result{
+    width: 200px;
+    background-color: white;
+    
+}
+input{
+    height: 20px;
+    border-radius: 10px;
+}
+#add,#erase{
+    padding: 0px;
+    margin-left: 50px;
+}
+button{
+    color: rgb(146, 52, 234);
+    background-color: rgb(212, 171, 255);
+    border-color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 170px;
+}

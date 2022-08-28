@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="hotel.css">
+
+</head>
+
+<body>
+
+    <div>
+        <!-- <form  id="form"> -->
+
+        <table>
+            <caption class="text table ">
+                <h1 class="heading">Hotel Registration</h1>
+            </caption>
+            <tr>
+                <td><label class="text" for="num1">
+                        <h3>Full Name</h3>
+                    </label></td>
+                <td><input class="m" type="text" id="num1"><h1 class="text">*</h1></td>
+            </tr>
+
+            <tr>
+                <td><label class="text" for="num2">
+                        <h3>Date of check-in</h3>
+                    </label></td>
+                <td><input class="m" type="date" id="num2"></td>
+            </tr>
+            <tr>
+                <td><label class="text" for="days">
+                        <h3>No. of Days</h3>
+                    </label></td>
+                <td><input type="number" class="m" id="days"></td>
+            </tr>
+
+            <tr>
+                <td><button id="add" onclick="reg()">
+                        <h3>Register</h3>
+                    </button></td>
+            </tr>
+            <tr>
+                <td class="text"><h3>Facility1</h3></td>
+                <td>
+                    <span class="text"><input class="text" type="checkbox" id="tv"><strong>TV</strong></span>
+                    <span class="text"><input class="text" type="checkbox" id="lap"> <strong>laptop</strong></span>
+                    <span class="text"><input class="text" type="checkbox" id="wifi"> <strong>Wifi</strong></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="text"><h3>Facility2</h3></td>
+                <td>
+                    <span><input type="radio" id="rad1" name="ac" value="Ac">
+                          <label for="rad1" class="text"><strong>Ac</strong></label><br></span>
+                      <span><input type="radio" id="rad2" name="ac" value="Non-Ac">
+                          <label for="rad2" class="text"><strong>Non-Ac</strong></label><br></span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="result" class="text">
+                        <h3>Result</h3>
+                    </label></td>
+                <td><input type="number" name="" id="result" disabled></td>
+            </tr>
+        </table>
+
+        <!-- </form> -->
+
+
+    </div>
+    <script src="hotel.js"></script>
+</body>
+
+</html>
